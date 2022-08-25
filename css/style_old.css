@@ -1,0 +1,102 @@
+/* 
+*****************************************
+*                                       *
+*                                       *
+*       Saravanan.R                     * 
+*       Ui-UX web-graphic designer      *
+*       wegam04@gmail.com               *
+*       9740317802- 8880513344          *
+*                                       *
+*                                       *
+*****************************************
+*/
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "PT sans", "Roboto", "Arial", sans-serif;
+}
+
+body {
+    font-family: "PT sans", "Roboto", "Arial", sans-serif;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+::root {
+    --theme-blue: #55ACEE;
+    --theme-gray: #292F33;
+    --theme-dimGray: #66757F;
+    --theme-silver: #CCD6DD;
+    --theme-lavender: #E1E8ED;
+    --theme-violet: #6f42c1;
+}
+
+
+/***********  @media  ************/
+@media screen and (max-width: 375px) {
+    {
+        margin-bottom: 8px;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+ {
+        margin-bottom: 8px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+ {
+        margin-bottom: 8px;
+    }
+}
+
+
+/***********     ************/
+
+section {
+
+    margin: 0 auto;
+    font-size: 12px;
+    color: #696969;
+	
+}
+
+/***********  Home section    ************/
+#home {
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3) inset;
+}
+#home > #name-box {
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: rotate(45deg);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+#home > #name-box span{
+	transform: rotate(-45deg);
+	
+}
+
+
+
+
+
+
+
+
+
