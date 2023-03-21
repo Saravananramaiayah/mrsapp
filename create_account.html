@@ -1,137 +1,156 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mrs App Home</title>
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css">    
-    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
- </head>
 
-  <body>
-      <div class="container p-0">
-        <!-- Header  -->
-          <header class="header fixed-top" id="header-bg" >
-              <div  class=" d-flex justify-content-between mx-3 py-2">
-                <div><i class="pe-2 ">9:30</i>  </div>
-                <div> <i class="fas fa-signal pe-2"></i><i class="fa fa-wifi pe-2"></i> <i class="fa fa-battery-half"></i></div>
-              </div>
-              <div class="d-flex justify-content-center fs-6 mx-3 py-2">
-                <div> 
-                  <!-- <i class="fa fa-arrow-left"></i>  -->
-                </div>
-                <div class="top-title" >Create An Account</div>
-                <!-- Home Side Nav  -->
-              
-              
-              <!-- Home Side Nav End -->
-              </div> 
-              <!-- <hr> -->
-          </header>
-          <!-- Header End -->
-          <!-- Middle -->
-          <div class="middle mx-3 overflow-auto">
-            <form>
-              <div class="nav nav-pills d-flex registation-tab mb-3" id="pills-tab">
-                <a class="nav-link active" data-bs-toggle="pill" href="#pills-customer"> Customer </a>
-                <a class="nav-link " data-bs-toggle="pill" href="#pills-service-men"> Service Men </a>
-              </div>
-              <div class="tab-content" id="pills-tabContent">
-                <!-- Customer  -->
-                  <div class="tab-pane fade show active" id="pills-customer">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Name *">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Phone No  *">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your e-mail ID *">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Company or Home Name ">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Address *">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your lacation in google Map link *">
-                  <div class="input-group">
-                    <input type="text" class="form-control registation-form get-form mb-3" placeholder="Click Button Your Get ID *">
-                    <button type="button" class="btn button-get" id="input-group-button-right"> Get ID </button>
-                  </div>
-                  
-                  <input class="form-control" type="file" id="formFile">
-                  <label for="formFile" class="form-label" ></label>
-                 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mrs App Home</title>
 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-
-                  <div class="d-flex justify-content-between">
-                    <div class="map-link mb-3" >
-                      <a href="#"><img src="image/map.png" class="img-fluid p-1 mb-2">  </a>
-                      <p>View Map</p>
-                    </div>
-                    <div class="customer-photo">
-                        <a  id="formFile" ><img src="image/user90x90.png" class="img-fluid mb-2"> </a>
-                        <p>Add Your Photo</p>
-                    </div>
-                  </div>
-                 
-                  <a type="button" class="btn btn-button mb-0 mt-0" href="#.html">Submit</a>
-                <div class="resend text-center mt-2"> If you have account? <a href="login.html"> Login </a> </div>
-                           
-                </div>
-
-                <!-- Service Men -->
-                <div class="tab-pane fade" id="pills-service-men">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Name *">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Mobile No  *">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your OTP Mobile Friend or Family No  *">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your e-mail ID *">
-                  <div class="input-group">
-                    <input type="file" id="input-group-button-right formFile" class="form-control registation-form get-form mb-3" placeholder="Enter Your Address or Attach Your Address Proof *">
-                    <!-- <button type="button" class="btn button-get" id="input-group-button-right"> Attach </button> -->
-                  </div>
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your lacation in google Map link *">
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Type of Vehicle *">
-                  <div class="input-group">
-                    <input type="text" class="form-control registation-form get-form mb-3" placeholder="Attach Your Resume *">
-                    <button type="button" class="btn button-get" id="input-group-button-right"> Attach </button>
-                  </div>
-                  <input type="text" class="form-control registation-form mb-3" placeholder="Click Here Google Form Filling *">
-                  <div class="input-group">
-                    <input type="text" class="form-control registation-form get-form mb-3" placeholder="Click Button Your Get ID *">
-                    <button type="button" class="btn button-get" id="input-group-button-right"> Get ID </button>
-                  </div>
-
-                 
-
-                  <div class="d-flex justify-content-between">
-                    <div class="map-link mb-3" >
-                      <a href="#"><img src="image/map.png" class="img-fluid p-1 mb-2">  </a>
-                      <p>View Map</p>
-                    </div>
-                    <div class="customer-photo">
-                        <a  id="formFile" ><img src="image/user90x90.png" class="img-fluid mb-2"> </a>
-                        <p>Add Your Photo</p>
-                    </div>
-                  </div>
-                 
-                  <a type="button" class="btn btn-button mb-0 mt-0" href="#.html">Submit</a>
-                <div class="resend text-center mt-2"> If you have account? <a href="login.html"> Login </a> </div>
-    
-                </div>
-            </form>        
-          </div>
-
-      <!-- Middle End -->
-      <!-- Footer -->
-          <!-- <footer class=" position-absolute ">
-         
-          </footer> -->
-      <!-- Footer End -->
+<body>
+  <div class="container p-0">
+    <!-- Header  -->
+    <header class="header fixed-top" id="header-bg">
+      <div class=" d-flex justify-content-between mx-3 py-2">
+        <div><i class="pe-2 ">9:30</i> </div>
+        <div> <i class="fas fa-signal pe-2"></i><i class="fa fa-wifi pe-2"></i> <i class="fa fa-battery-half"></i></div>
+      </div>
+      <div class="d-flex justify-content-center fs-6 mx-3 py-2">
+        <div>
+          <!-- <i class="fa fa-arrow-left"></i>  -->
         </div>
+        <div class="top-title">Create An Account</div>
+        <!-- Home Side Nav  -->
+        <!-- Home Side Nav End -->
+      </div>
+      <!-- <hr> -->
+    </header>
+    <!-- Header End -->
+    <!-- Middle -->
+    <div class="middle mx-3 overflow-auto">
+      <form>
+        <div class="nav nav-pills d-flex registation-tab mb-3" id="pills-tab">
+          <a class="nav-link active" data-bs-toggle="pill" href="#pills-customer"> Customer </a>
+          <a class="nav-link " data-bs-toggle="pill" href="#pills-service-men"> Service Men </a>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <!-- Customer  -->
+          <div class="tab-pane fade show active" id="pills-customer">
+            <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Name *">
+            <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Phone No  *">
+            <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your e-mail ID *">
+            <input type="text" class="form-control registation-form mb-3"
+              placeholder="Enter Your Company or Home Name ">
+            <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Address *">
+            <input type="text" class="form-control registation-form mb-3"
+              placeholder="Enter Your lacation in google Map link *">
+            <textarea type="text" class="form-control registation-form mb-3"
+              placeholder="Enter About Your's (or)  Your's Company 100 Words " style="height: 60px">
+</textarea>
+            <div class="regd-laco-out d-flex justify-content-between">
+              <div class="map-link"></div>
+              <div class="customer-photo d-flex justify-content-end">
+                <label for="file-upload" class="custom-file-upload">
+                  <a href="#"><img src="image/user90x90.png" class="img-fluid"> </a> <i class="far fa-plus-square"></i>
+                </label>
+                <input id="file-upload" type="file" />
+              </div>
+            </div>
+            <a type="button" class="btn btn-button mb-0 mt-3" href="#" data-bs-toggle="modal"
+              data-bs-target="#customer_modal">Submit</a>
+            <div class="resend text-center mt-2"> If you have account? <a href="login.html"> Login </a> </div>
+          </div>
+          <!-- Customer End  -->
+          <!-- Service Men -->
+          <div class="tab-pane fade" id="pills-service-men">
+            <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Name *">
+            <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Mobile No  *">
+            <input type="text" class="form-control registation-form mb-3"
+              placeholder="Enter Your OTP Mobile Friend or Family No  *">
+            <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your e-mail ID *">
+            <input type="text" class="form-control registation-form mb-3" placeholder="Enter Your Address *">
+            <input type="text" class="form-control registation-form mb-3"
+              placeholder="Enter Your lacation in google Map link *">
+            <div class="cv-upload mt-0 mb-3">
+              <label class="cv-upload-button" for="inputGroupFile">Upload CV </label>
+              <input type="file" class="form-control" id="inputGroupFile">
+            </div>
 
+            <div class="cv-upload mt-0 mb-3">
+              <label class="cv-upload-button" for="inputGroupFile">Upload AC </label>
+              <input type="file" class="form-control" id="inputGroupFile">
+            </div>
 
+            <div class="cv-upload mt-0 mb-3">
+              <label class="cv-upload-button" for="inputGroupFile">Upload DL </label>
+              <input type="file" class="form-control" id="inputGroupFile">
+            </div>
+            <textarea type="text" class="form-control registation-form mb-3"
+              placeholder="Enter About Yourself 100 Words" style="height: 60px"></textarea>
+            <div class="regd-laco-out d-flex justify-content-aroun">
+              <div class="map-link"> </div>
+              <div class="customer-photo d-flex justify-content-end">
+                <label for="file-upload" class="custom-file-upload">
+                  <a href="#"><img src="image/user90x90.png" class="img-fluid"> </a> <i class="far fa-plus-square"> </i>
+                </label>
+                <input id="file-upload" type="file"/>
+              </div>
+            </div>
+            <a type="button" class="btn btn-button mb-0 mt-3" href="#" data-bs-toggle="modal"
+              data-bs-target="#service_men_modal">Submit</a>
+            <div class="resend text-center mt-2"> If you have account? <a href="login.html"> Login </a> </div>
+          </div>
+          <!-- Service Men End -->
+        </div>
+      </form>
+    </div>
+    <!-- Middle End -->
+    <!-- Footer -->
+    <!-- <footer class=" position-absolute ">
+    </footer> -->
+    <!-- Footer End -->
+  </div>
+  <!-- Pop Up -->
+  <!-- Customer Modal -->
+  <div class="modal fade" id="customer_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="d-flex justify-content-center align-items-center vh-100">
+   <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-body sub-title text-center p-4 ">
+          Your Account has Created <br> Successfully
+          <br>Account ID No-SA100CUS1001 
+          <a href="login.html" type="button" class="mt-3 btn btn-button d-flex justify-content-center" >Login</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Customer Modal End  -->
+  <!-- Servic Men Modal -->
+  <div class="modal fade" id="service_men_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="modal-dialog ">
+       <div class="modal-content ">
+         <div class="modal-body sub-title text-center p-4">
+           Your Account has Created <br> Successfully
+           <br>Account ID No-SA100CUS2001 
+           <a href="login.html" type="button" class="mt-3 btn btn-button d-flex justify-content-center" >Login</a>
+         </div>
+       </div>
+     </div>
+     </div>
+   </div>
+  <!-- Servic Men Modal End  -->
+  <!-- Pop Up End -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
 
-
-       
-
-
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js" ></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>

@@ -34,19 +34,19 @@
           <!-- Header End -->
           <!-- Middle -->
           <div class="middle mx-3 overflow-auto">
-            <div class="d-flex justify-content-center mb-2"><img src="image/otp_img.png" class="img-fluid"></div>
+            <div class="d-flex justify-content-center mb-2"><img src="image/otp_img.png" class="py-1"></div>
             <div class="timer"> 00:24 <p> Timer </p>  </div>
             
             <h2 class="big-sub-title pt-1">Verify </h2>
             <span class="m-0"> Enter the OTP sent to your phone</span>
             <form>
             <div class="d-flex justify-content-between"> 
-              <input type="text" class="form-control otp-form mb-1 mt-3" placeholder=" ">
-              <input type="text" class="form-control otp-form mb-1 mt-3" placeholder=" ">
-              <input type="text" class="form-control otp-form mb-1 mt-3" placeholder=" ">
-              <input type="text" class="form-control otp-form mb-1 mt-3" placeholder=" ">
-              <input type="text" class="form-control otp-form mb-1 mt-3" placeholder=" ">
-              <input type="text" class="form-control otp-form mb-1 mt-3" placeholder=" ">
+              <input type="text" class="form-control otp-form mb-1 mt-3"  min="0" max="9"  value=" ">
+              <input type="text" class="form-control otp-form mb-1 mt-3"  min="0" max="9"  value=" ">
+              <input type="text" class="form-control otp-form mb-1 mt-3"  min="0" max="9"  value=" ">
+              <input type="text" class="form-control otp-form mb-1 mt-3"  min="0" max="9"  value=" ">
+              <input type="text" class="form-control otp-form mb-1 mt-3"  min="0" max="9"  value=" ">
+              <input type="text" class="form-control otp-form mb-1 mt-3"  min="0" max="9"  value=" ">
             </div>
             <div class="resend text-center mt-1">  Didn't Receive Code? <a href="#"> Resend </a></div>
 
@@ -79,7 +79,8 @@
 
        
 
-
+        <script src="js/jquery-3.6.1.min.js"></script>    
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js" ></script>
     <script src="js/bootstrap.bundle.min.js"></script>
